@@ -12,7 +12,7 @@ import {
 } from '../Icons.jsx';
 
 const Navigation = () => {
-  const [isOpen, setIsOpen] = createSignal(true);
+  const [isOpen, setIsOpen] = createSignal(false);
   const toggleMenu = () => setIsOpen(!isOpen());
 
   return (
