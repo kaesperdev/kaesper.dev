@@ -1,4 +1,4 @@
-import { Routes, Route, Router, Navigate } from '@solidjs/router';
+import { Routes, Route, Navigate } from '@solidjs/router';
 
 import Home from './pages/Home';
 import Contact from './pages/Contact';
@@ -7,7 +7,7 @@ import Why from './pages/Why';
 
 const App = () => {
   return (
-    <Router>
+    <div>
       <p class='text-5xl'>Hello, World!</p>
       <Routes>
         <Route path='*' element={<Navigate href={'/'} />} />
@@ -16,7 +16,7 @@ const App = () => {
         <Route path='/finds' component={<Finds />} />
         <Route path='/why' component={<Why />} />
       </Routes>
-    </Router>
+    </div>
   );
 };
 
