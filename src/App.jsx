@@ -7,8 +7,7 @@ import Why from './pages/Why';
 
 const App = () => {
   return (
-    <div>
-      <p class='text-5xl'>Hello, World!</p>
+    <div class='flex min-h-screen flex-col items-center bg-gradient-to-br from-[#cf5f84] to-[#cc755a] font-josefin font-light text-white dark:from-[#1f3970] dark:to-[#091324] dark:text-white'>
       <Routes>
         <Route path='*' element={<Navigate href={'/'} />} />
         <Route path='/' component={<Home />} />
