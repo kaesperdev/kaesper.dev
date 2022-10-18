@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
-    <footer>
-      <p class='mt-12 text-center text-lg'>
+    <footer class='-mt-2 min-h-[2vh]'>
+      <p class='text-center text-lg'>
         Made with <span class='text-sm'>♡</span> by Casper{' '}
         <span class='text-sm'>ツ</span>
       </p>
