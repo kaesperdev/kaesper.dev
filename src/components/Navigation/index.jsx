@@ -26,9 +26,6 @@ const Navigation = () => {
           <A href='/contact' class='nav-button'>
             Contact
           </A>
-          <A href='/finds' class='nav-button'>
-            Finds
-          </A>
           <A href='/why' class='nav-button'>
             Why this username?
           </A>
@@ -107,13 +104,6 @@ const Navigation = () => {
                     Contact
                   </A>
                   <div class='relative top-1 after:absolute after:content-["|"]'></div>
-                  <A
-                    href='/finds'
-                    class='nav-button w-[33%]'
-                    onClick={() => toggleMenu()}
-                  >
-                    Finds
-                  </A>
                 </div>
                 <A href='/why' class='nav-button' onClick={() => toggleMenu()}>
                   Why this username?
