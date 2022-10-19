@@ -5,7 +5,6 @@ import Footer from './components/Footer';
 
 import Home from './pages/Home';
 import Contact from './pages/Contact';
-import Finds from './pages/Finds';
 import Why from './pages/Why';
 
 const App = () => {
@@ -18,7 +17,6 @@ const App = () => {
             <Route path='*' element={<Navigate href={'/'} />} />
             <Route path='/' component={Home} />
             <Route path='/contact' component={Contact} />
-            <Route path='/finds' component={Finds} />
             <Route path='/why' component={Why} />
           </Routes>
         </main>
