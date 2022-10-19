@@ -27,7 +27,7 @@ const Navigation = () => {
             Contact
           </A>
           <A href='/why' class='nav-button'>
-            Why this username?
+            Why Kaesper?
           </A>
         </div>
         <div class='flex flex-row items-center gap-1'>
@@ -106,7 +106,7 @@ const Navigation = () => {
                   <div class='relative top-1 after:absolute after:content-["|"]'></div>
                 </div>
                 <A href='/why' class='nav-button' onClick={() => toggleMenu()}>
-                  Why this username?
+                  Why Kaesper?
                 </A>
               </div>
               <div class='flex flex-row justify-center gap-2 border-b border-white p-2'>
