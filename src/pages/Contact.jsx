@@ -89,7 +89,7 @@ const Contact = () => {
           </a>
           <a
             class='mt-4 flex flex-row items-center justify-center rounded-md border border-white bg-white/10 py-4 px-4 backdrop-blur-lg md:justify-start'
-            href='/src/assets/pgp.key'
+            href='/kaesperdev.asc'
             target='_blank'
           >
             <KeyIcon />
